@@ -23,7 +23,7 @@ public class Assign21 {
 
     private static void tree(String word) {
 
-        ArrayList<String> layers = new ArrayList<String>();
+        ArrayList<String> layers = new ArrayList<>();
         char[] letters = word.toCharArray();
 
         int len = letters.length;
