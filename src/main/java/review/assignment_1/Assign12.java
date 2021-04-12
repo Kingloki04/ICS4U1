@@ -26,6 +26,5 @@ public class Assign12 {
             return;
         }
         System.out.println("The Winner is B");
-
     }
 }
