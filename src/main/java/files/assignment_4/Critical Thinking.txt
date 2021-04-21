@@ -1,0 +1,32 @@
+1.  No because data in memory is nto stored in a format like a file.
+
+2.  import java.io.File;
+
+3.  The error is that the path should be using double slashes to separate the directories.
+
+4.
+a)  class name() throws Exception {}
+    The exception can be more specific.
+
+b)  File file = new File("path\\name.txt");
+    if (file.exists()) {
+        System.out.println("This file already exists");
+    } else {
+        try {
+            file.createNewFile();
+            System.out.println("File has been created");
+        } catch (IOException error) {
+            System.out.println("This file cannot be created");
+            System.out.println(e.getMessage());
+        }
+    }
+
+5.
+a)  IOException
+b)  The error messages are displayed in the terminal.
+
+6.
+a)  A file stream keeps track of all the data in a file. ie: spaces, characters, line changes and the end of the file.
+b)  The characters Cr() and Lf() represent a line terminator
+
+7.  The BufferedWriter and the FileWriter are used together to write data to a file.
