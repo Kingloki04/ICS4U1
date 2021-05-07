@@ -53,6 +53,10 @@ public class ConversionUtil {
 		return res;
 	}
 
+	public static char ASCIIToChar(int ASCII) {
+		return (char)ASCII;
+	}
+
 	/**
 	 * Converts a string to a binary value
 	 *
