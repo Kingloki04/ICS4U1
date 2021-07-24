@@ -35,7 +35,7 @@ public class SolvingMazes {
 
     public static void main(String[] args) throws IOException {
 
-        Map maze = new Map(new ArrayList<char[]>());
+        Map maze = new Map(new ArrayList<>());
 
         BufferedReader file = new BufferedReader(new FileReader("src/main/java/recursion/assignment_6/files/Maze.txt"));
 

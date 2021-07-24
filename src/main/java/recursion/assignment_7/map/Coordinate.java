@@ -1,4 +1,4 @@
-package recursion.assignment_7.objects;
+package recursion.assignment_7.map;
 
 import lombok.Getter;
 import lombok.Setter;

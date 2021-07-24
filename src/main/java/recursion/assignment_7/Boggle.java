@@ -1,7 +1,7 @@
 package recursion.assignment_7;
 
-import recursion.assignment_7.objects.Coordinate;
-import recursion.assignment_7.objects.Map;
+import recursion.assignment_7.map.Coordinate;
+import recursion.assignment_7.map.Map;
 import utils.MathUtil;
 import utils.WritingUtil;
 

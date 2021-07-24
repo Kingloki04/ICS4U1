@@ -5,7 +5,7 @@ import java.util.List;
 
 public class Map {
 
-    private ArrayList<char[]> map;
+    private final ArrayList<char[]> map;
 
     public Map(ArrayList<char[]> map) {
         this.map = map;
